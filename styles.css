@@ -1,1 +1,89 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
 
+/* Header */
+header {
+    background: #1f2937;
+    color: #ffffff;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Main Content */
+main {
+    padding: 2rem;
+}
+
+.intro, .featured, .about, .founder-story, .contact {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+/* Form */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin-top: 5px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background: #1f2937;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #374151;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #1f2937;
+    color: #ffffff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
